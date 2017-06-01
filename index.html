@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Expo Rescue</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script>
+	$(document).ready(function(e){
+		$('#triggermenu').click(function(e){
+			e.preventDefault();
+			console.log('test');
+			$('#menu').toggle();
+		})
+	});
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="col-md-12">
+				<a href="" id="logo"><img src="img/logo.png" alt="Expo Rescue"></a>
+				<a href="#" id="triggermenu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+				<ul id="menu">
+					<li><a href="">Expo Rescue</a>
+					<ul class="submenu">
+						<li><a href="">Acerca de</a</li>
+						<li><a href="">Ficha Técnica</a></li>
+					</ul>
+					</li>
+					<li><a href="">Expositores</a>
+						<ul class="submenu">
+							<li><a href="">Participa</a></li>
+							<li><a href="">Stand</a></li>
+							<li><a href="">Plano Interactivo</a></li>
+						</ul>
+					</li>
+					<li><a href="">Visitantes</a></li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="modulo mt70" id="video">
+		<video src="video/exporescue.mp4" autoplay muted></video>
+	</div>
+	<div class="modulo" id="acerca-de">
+		<div class="container">
+			<div class="col-md-12">
+				<h2>EXPO RESCUE INTERNATIONAL 2017</h2>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-6">
+				<p>Presentamos el 1er. Encuentro Mundial para la Reducción del Riesgo de Desastre y Administración de Emergencias dentro de Expo Rescue International, a celebrarse en el Centro Citibanamex de la CDMX, del 23 al 25 de Noviembre de 2017. </p>
+				<p>Contaremos con la presencia de destacados Asesores Internacionales impartiendo Conferencias Magistrales enfocadas en entender de mejor manera los retos que los diferentes escenarios de riesgo nos presentan, así como una serie de Seminarios Temáticos, Simulacros, Talleres y mucha Innovación.</p>
+			</div>
+			<div class="col-md-6">
+				<p>Como complemento comercial al Encuentro y en busca de fomentar mejores esquemas de Preparación y Respuesta entre el Gobierno, la Industria Privada y la Sociedad, concebimos: Expo Rescue International: La más importante exhibición de productos en materia de Servicios de Respuesta ante Emergencias originadas por un Fenómeno Natural y/o Causadas por el Hombre, con la participación de 160 Empresas presentando lo último en Tecnología, Equipamiento, Sistemas Preventivos y Protección de Infraestructura. </p>
+				<p>
+No dejes pasar la oportunidad de estar en el lugar correcto para mostrar tus productos y servicios, relacionándote con clientes potenciales del sector Público y Privado.</p>
+			</div>
+		</div>
+	</div>
+	<div class="parallax1"></div>
+	<div class="modulo">
+		<div class="container">
+			<div class="col-md-12">
+				<p>asdf</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
